@@ -3,6 +3,9 @@
 ## How to launch the game without the wegame launcher
 To launch the game without the wegame launcher, you have just to give argument ``-qos_id=<your-number>``
 
+## Skip Splashscreen
+To skip the splashscreen when the game is launched you can add the argument ``-nosplash``
+
 ### Example
 ```cmd
 "C:\Program Files\TencentGame\Monster Hunter Online\Bin\Client\Bin32\MHOClient.exe" -qos_id=123456789
