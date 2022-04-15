@@ -18,3 +18,9 @@ If you check the MHOClient.exe with a Hex Editor, you will see after the ``MZ`` 
 There is an experimental tool made to extract this part, decompress it and rebuild the exe, it works but there is still some problems on the repackaging because like we change the content of the exe, we have to rebuild the mz header entirely, it's in WIP.
 
 link to the tool : https://github.com/MHO-Revival/MHO-Executable-Decompressor
+
+### DLLs packing
+
+![image](https://cdn.discordapp.com/attachments/309032714982522881/964487077909626880/unknown.png)
+
+The MHOClientBase.dll and every game dll like CryGame/CryAction about the game are packed with VMProtect
