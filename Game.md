@@ -1,7 +1,7 @@
 # Game documentation
 
 ## How to launch the game without the wegame launcher
-To launch the game without the wegame launcher, you have just to give argument ``-qos_id=<your-number>``
+To launch the game without the wegame launcher, you have just to give any argument starting with ``-q``
 
 ## Skip Splashscreen
 To skip the splashscreen when the game is launched you can add the argument ``-nosplash``
