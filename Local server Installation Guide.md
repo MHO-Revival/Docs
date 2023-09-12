@@ -5,13 +5,14 @@
 - Visual Studio Community (https://visualstudio.microsoft.com/downloads/)
 - .NET 7 SDK (https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 - Game (https://mega.nz/file/F8hV1AjZ#qh7kYq53p2yKX8sFmrNnvBL5EsScEXzKp_1XF-Upj8k)
+- Decompressed MHOClient (https://mega.nz/file/sKNDAZyJ#K6RYgCCvEye9eGGiIBRomkn5zxKCDEEAPiUCi45ZJa8)
 - Launcher (https://github.com/sebastian-heinz/mho_launcher)
 - Server source code (https://github.com/sebastian-heinz/Arrowgene.MonsterHunterOnline)
-- others ()
 
 ## First steps, the game installation
 
 Install the game to whatever folder you want (mine is C:\Program Files (x86)\TencentGame\Monster Hunter Online\Bin\Client\Bin32)
+Install the decompressed MHOClient inside the game installation just freshly installed.
 
 You will have to build the launcher by yourself
 Download the Launcher project and put it where you want (mine is E:\jeux\MONSTER HUNTER ONLINE\mho_launcher)
@@ -59,4 +60,4 @@ Next you can go inside your game installation (mine is C:\Program Files (x86)\Te
 You should get another cmd window, press Enter and it should close the cmd to open another one.
 Sometimes the 2nd cmd can crash (sometimes it happened 5-6 times in a row for me), just open the launcher again.
 
-Ta-da, your inside the game, create a caracter and cruse around !
+Ta-da, your inside the game, create a caracter and cruise around !
