@@ -13,11 +13,14 @@
 ## First steps, the game installation
 
 Install the game to whatever folder you want (mine is C:\Program Files (x86)\TencentGame\Monster Hunter Online\Bin\Client\Bin32)
+
 Install the decompressed MHOClient inside the game installation just freshly installed.
+
 Install the english patch in the same path it's showing in the 7zip file (otherwise you will not be able to create new character, if it shows you a little textbox, that's because the english patch is missing), the only file it will replace is the IIPSFileList.lst, it contains all the .ifs files that MHO needs + the english patch.
 
-You will have to build the launcher by yourself
-Download the Launcher project and put it where you want (mine is E:\jeux\MONSTER HUNTER ONLINE\mho_launcher)
+You will have to build the launcher by yourself.
+
+Download the Launcher project and put it where you want (mine is E:\jeux\MONSTER HUNTER ONLINE\mho_launcher).
 
 
 Launch Visual Studio, select folder and follow theses steps to build it :
@@ -30,7 +33,9 @@ Launch Visual Studio, select folder and follow theses steps to build it :
 - Copy mho_launcher.exe + mho_launcher_lib.dll inside your game installation (mine is C:\Program Files (x86)\TencentGame\Monster Hunter Online\Bin\Client\Bin32)
 
 Next part is only to prevent crash report to be send to a unknown host, so it will just send the reports to yourself.
+
 So in the host file (located at C:\Windows\System32\drivers\etc)
+
 Add thoses lines :
 ```
 127.0.0.1 tqos.gamesafe.qq.com
