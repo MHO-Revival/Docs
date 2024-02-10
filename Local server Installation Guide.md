@@ -6,6 +6,7 @@
 - .NET 7 SDK (https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 - Game (https://mega.nz/file/F8hV1AjZ#qh7kYq53p2yKX8sFmrNnvBL5EsScEXzKp_1XF-Upj8k)
 - Decompressed MHOClient (https://mega.nz/file/sKNDAZyJ#K6RYgCCvEye9eGGiIBRomkn5zxKCDEEAPiUCi45ZJa8)
+- English Patch (https://mega.nz/file/oaFwWKSY#5I5b21AV9F2kWGB2QahA7W6ZKokH5r93o7lIq3bwk9o)
 - Launcher (https://github.com/sebastian-heinz/mho_launcher)
 - Server source code (https://github.com/sebastian-heinz/Arrowgene.MonsterHunterOnline)
 
@@ -13,6 +14,7 @@
 
 Install the game to whatever folder you want (mine is C:\Program Files (x86)\TencentGame\Monster Hunter Online\Bin\Client\Bin32)
 Install the decompressed MHOClient inside the game installation just freshly installed.
+Install the english patch in the same path it's showing in the 7zip file (otherwise you will not be able to create new character, if it shows you a little textbox, that's because the english patch is missing), the only file it will replace is the IIPSFileList.lst, it contains all the .ifs files that MHO needs + the english patch.
 
 You will have to build the launcher by yourself
 Download the Launcher project and put it where you want (mine is E:\jeux\MONSTER HUNTER ONLINE\mho_launcher)
