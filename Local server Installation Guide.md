@@ -10,6 +10,8 @@
 - Launcher (https://github.com/sebastian-heinz/mho_launcher)
 - Server source code (https://github.com/sebastian-heinz/Arrowgene.MonsterHunterOnline)
 
+⚠️⚠️⚠️If images doesn't show that means my server is down ⚠️⚠️⚠️
+
 ## First steps, the game installation
 
 Install the game to whatever folder you want (mine is C:\Program Files (x86)\TencentGame\Monster Hunter Online\Bin\Client\Bin32)
@@ -26,9 +28,9 @@ Download the Launcher project and put it where you want (mine is E:\jeux\MONSTER
 Launch Visual Studio, select folder and follow theses steps to build it :
 
 - The project need a compiler to build correctly, it should compile in x86-Release :
-![alt text](https://cdn.discordapp.com/attachments/597845868841795604/1151228212714680431/image.png)
+![Compiler image](http://136.243.63.156:10782/images/mho_guide1.png)
 - Next, build the project with this icon :
-![alt text](https://cdn.discordapp.com/attachments/597845868841795604/1151229689176797257/image.png)
+![Build image](http://136.243.63.156:10782/images/mho_guide2.png)
 - Find the output files in the folder : LOCATION"\mho_launcher\out\build\x86-Release (mine is E:\jeux\MONSTER HUNTER ONLINE\mho_launcher\out\build\x86-Release)
 - Copy mho_launcher.exe + mho_launcher_lib.dll inside your game installation (mine is C:\Program Files (x86)\TencentGame\Monster Hunter Online\Bin\Client\Bin32)
 
@@ -46,21 +48,21 @@ Add thoses lines :
 ```
 
 Edit the file with notepad to get something similar
-![alt text](https://cdn.discordapp.com/attachments/597845868841795604/1151237180321177711/image.png)
+![Notepad image](http://136.243.63.156:10782/images/mho_guide5.png)
 
 ## Server installation
 
 Download the server files (Server source code) and put it where you want (mine is E:\jeux\MONSTER HUNTER ONLINE\Arrowgene.MonsterHunterOnline)
 
 With Visual Studio, select the project .sln, and configure the debugging properties and put "service start" :
-![alt text](https://cdn.discordapp.com/attachments/597845868841795604/1151232832581156894/image.png)
+![Service start image](http://136.243.63.156:10782/images/mho_guide3.png)
 
 
 
 ## Final step, run everything
 
 Run the ArrowGene.MonsterHunterOnline.Cli and you should get that cmd window :
-![alt text](https://cdn.discordapp.com/attachments/597845868841795604/1151233757471326299/image.png)
+![Cmd window image](http://136.243.63.156:10782/images/mho_guide4.png)
 
 Next you can go inside your game installation (mine is C:\Program Files (x86)\TencentGame\Monster Hunter Online\Bin\Client\Bin32) and launch the mho_launcher.exe
 
