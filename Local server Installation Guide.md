@@ -18,7 +18,9 @@ Install the game to whatever folder you want (mine is C:\Program Files (x86)\Ten
 
 Install the decompressed MHOClient inside the game installation just freshly installed.
 
-Install the english patch in the same path it's showing in the 7zip file (otherwise you will not be able to create new character, if it shows you a little textbox, that's because the english patch is missing), the only file it will replace is the IIPSFileList.lst, it contains all the .ifs files that MHO needs + the english patch.
+Install the english patch in the same path it's showing in the 7zip file (otherwise you will not be able to create new character, if it shows you a little textbox with a green message, see picture below, that's because the english patch is missing), the only file it will replace is the IIPSFileList.lst, it contains all the .ifs files that MHO needs + the english patch.
+
+![Green message](http://136.243.63.156:10782/images/mho_guide6.png)
 
 You will have to build the launcher by yourself.
 
@@ -28,9 +30,13 @@ Download the Launcher project and put it where you want (mine is E:\jeux\MONSTER
 Launch Visual Studio, select folder and follow theses steps to build it :
 
 - The project need a compiler to build correctly, it should compile in x86-Release :
+
 ![Compiler image](http://136.243.63.156:10782/images/mho_guide1.png)
+
 - Next, build the project with this icon :
+
 ![Build image](http://136.243.63.156:10782/images/mho_guide2.png)
+
 - Find the output files in the folder : LOCATION"\mho_launcher\out\build\x86-Release (mine is E:\jeux\MONSTER HUNTER ONLINE\mho_launcher\out\build\x86-Release)
 - Copy mho_launcher.exe + mho_launcher_lib.dll inside your game installation (mine is C:\Program Files (x86)\TencentGame\Monster Hunter Online\Bin\Client\Bin32)
 
@@ -48,6 +54,7 @@ Add thoses lines :
 ```
 
 Edit the file with notepad to get something similar
+
 ![Notepad image](http://136.243.63.156:10782/images/mho_guide5.png)
 
 ## Server installation
@@ -55,6 +62,7 @@ Edit the file with notepad to get something similar
 Download the server files (Server source code) and put it where you want (mine is E:\jeux\MONSTER HUNTER ONLINE\Arrowgene.MonsterHunterOnline)
 
 With Visual Studio, select the project .sln, and configure the debugging properties and put "service start" :
+
 ![Service start image](http://136.243.63.156:10782/images/mho_guide3.png)
 
 
@@ -62,6 +70,7 @@ With Visual Studio, select the project .sln, and configure the debugging propert
 ## Final step, run everything
 
 Run the ArrowGene.MonsterHunterOnline.Cli and you should get that cmd window :
+
 ![Cmd window image](http://136.243.63.156:10782/images/mho_guide4.png)
 
 Next you can go inside your game installation (mine is C:\Program Files (x86)\TencentGame\Monster Hunter Online\Bin\Client\Bin32) and launch the mho_launcher.exe
@@ -74,5 +83,8 @@ Ta-da, your inside the game, create a caracter and cruise around !
 
 ## FAQ
 
-Q: I get a green message in a small box, what is it ? ![Green message](http://136.243.63.156:10782/images/mho_guide6.png)
+Q: I get a green message in a small box, what is it ? 
+
+![Green message](http://136.243.63.156:10782/images/mho_guide6.png)
+
 A: You didn't installed the english patch, check again the first step.
