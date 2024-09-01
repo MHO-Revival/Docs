@@ -70,3 +70,9 @@ You should get another cmd window, press Enter and it should close the cmd to op
 Sometimes the 2nd cmd can crash (sometimes it happened 5-6 times in a row for me), just open the launcher again.
 
 Ta-da, your inside the game, create a caracter and cruise around !
+
+
+## FAQ
+
+Q: I get a green message in a small box, what is it ? ![Green message](http://136.243.63.156:10782/images/mho_guide6.png)
+A: You didn't installed the english patch, check again the first step.
