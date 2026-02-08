@@ -4,7 +4,7 @@
 
 - Visual Studio Community (https://visualstudio.microsoft.com/downloads/)
 - .NET 7 SDK (https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
-- Game (https://mega.nz/file/F8hV1AjZ#qh7kYq53p2yKX8sFmrNnvBL5EsScEXzKp_1XF-Upj8k)
+- Game (https://archive.org/details/mho-full-directory-final)
 - Decompressed MHOClient (https://mega.nz/file/sKNDAZyJ#K6RYgCCvEye9eGGiIBRomkn5zxKCDEEAPiUCi45ZJa8)
 - English Patch (https://mega.nz/file/oaFwWKSY#5I5b21AV9F2kWGB2QahA7W6ZKokH5r93o7lIq3bwk9o)
 - Launcher (https://github.com/sebastian-heinz/mho_launcher)
