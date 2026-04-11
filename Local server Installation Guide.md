@@ -28,20 +28,7 @@ Place the .exe and the "libs" folder inside the game installation (mine is S:\je
 
 Next part is only to prevent crash report to be send to a unknown host, so it will just send the reports to yourself.
 
-So in the host file (located at C:\Windows\System32\drivers\etc)
-
-Add thoses lines :
-```
-127.0.0.1 tqos.gamesafe.qq.com
-127.0.0.1 down.qq.com
-127.0.0.1 stat.iips.qq.com
-127.0.0.1 ied-tqos.qq.com
-127.0.0.1 apps.game.qq.com
-```
-
-Edit the file with notepad to get something similar
-
-![Notepad image](https://github.com/user-attachments/assets/106c1a95-c7ab-40e2-9fd5-ff591b88efa1)
+With the new Rathalos launcher you can easily configure hosts, simply launch the Rathalos-Cli.exe, select "Configure Hosts File" then "View current status" to check if you need to add new hosts lines, if there is red, go back by pressing ENTER 2 times, then select "Add missing entries" and press "Y" then ENTER, and you can check again with "View current status", you will see green if the precedent step worked.
 
 ## Server installation
 
