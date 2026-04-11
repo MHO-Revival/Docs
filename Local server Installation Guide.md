@@ -7,14 +7,15 @@
 - Game (https://archive.org/details/mho-full-directory-final)
 - Decompressed MHOClient (https://mega.nz/file/sKNDAZyJ#K6RYgCCvEye9eGGiIBRomkn5zxKCDEEAPiUCi45ZJa8)
 - English Patch (https://mega.nz/file/oaFwWKSY#5I5b21AV9F2kWGB2QahA7W6ZKokH5r93o7lIq3bwk9o)
-- Launcher (https://github.com/sebastian-heinz/mho_launcher)
+- ~~Old Launcher (https://github.com/sebastian-heinz/mho_launcher)~~
+- New launcher, "Rathalos-CLI-vX.X.X.zip" (https://github.com/MHO-Revival/Rathalos/releases)
 - Server source code (https://github.com/sebastian-heinz/Arrowgene.MonsterHunterOnline)
 
 ⚠️⚠️⚠️If images doesn't show that means my server is down ⚠️⚠️⚠️
 
 ## First steps, the game installation
 
-Install the game to whatever folder you want (mine is C:\Program Files (x86)\TencentGame\Monster Hunter Online\Bin\Client\Bin32)
+Install the game to whatever folder you want (mine is S:\jeux\MHO\TencentGame\Monster Hunter Online\Bin\Client\Bin32)
 
 Install the decompressed MHOClient inside the game installation just freshly installed.
 
@@ -22,23 +23,8 @@ Install the english patch in the same path it's showing in the 7zip file (otherw
 
 ![Green message](https://github.com/user-attachments/assets/dea15393-a094-463e-a6a2-f632bd472e63)
 
-You will have to build the launcher by yourself.
-
-Download the Launcher project and put it where you want (mine is E:\jeux\MONSTER HUNTER ONLINE\mho_launcher).
-
-
-Launch Visual Studio, select folder and follow theses steps to build it :
-
-- The project need a compiler to build correctly, it should compile in x86-Release :
-
-![Compiler image](https://github.com/user-attachments/assets/ff3513d6-7690-46f6-a1b7-b1c080e825f1)
-
-- Next, build the project with this icon :
-
-![Build image](https://github.com/user-attachments/assets/7c6db59e-b117-4012-8de0-60416bd38bb9)
-
-- Find the output files in the folder : LOCATION"\mho_launcher\out\build\x86-Release (mine is E:\jeux\MONSTER HUNTER ONLINE\mho_launcher\out\build\x86-Release)
-- Copy mho_launcher.exe + mho_launcher_lib.dll inside your game installation (mine is C:\Program Files (x86)\TencentGame\Monster Hunter Online\Bin\Client\Bin32)
+You will also need a launcher ("New Launcher" download link), select Rathalos-Cli-vX.X.X.zip.
+Place the .exe and the "libs" folder inside the game installation (mine is S:\jeux\MHO\TencentGame\Monster Hunter Online\Bin\Client\Bin32)
 
 Next part is only to prevent crash report to be send to a unknown host, so it will just send the reports to yourself.
 
@@ -73,10 +59,20 @@ Run the ArrowGene.MonsterHunterOnline.Cli and you should get that cmd window :
 
 ![Cmd window image](https://github.com/user-attachments/assets/6c7ba234-25a8-46c4-bf99-30e8d57ce4be)
 
-Next you can go inside your game installation (mine is C:\Program Files (x86)\TencentGame\Monster Hunter Online\Bin\Client\Bin32) and launch the mho_launcher.exe
+__New launcher method :__
 
-You should get another cmd window, press Enter and it should close the cmd to open another one.
-Sometimes the 2nd cmd can crash (sometimes it happened 5-6 times in a row for me), just open the launcher again.
+Run Rathalos.CLI.exe, you will get a cmd window that you can navigate with arrow keys, so select "MHO Client Launcher" press ENTER to validate. Then press ENTER 4 more times to launch the game (it'll launch a 2nd cmd window), all the parameters are not needed when the client is in the correct folder.
+
+⚠️After the 2nd cmd is launched, unfocus the window by going on another window (discord or your favorite browser or anything else). If you don't unfocus, the game will not launch and the cmd will close, this is a known bug.
+
+Ta-da, your inside the game, create a caracter and cruise around !
+
+
+__Old launcher method :__
+
+Next you can go inside your game installation (mine is S:\jeux\MHO\TencentGame\Monster Hunter Online\Bin\Client\Bin32) and launch the mho_launcher.exe
+
+You should get another cmd window, press Enter and it should close the cmd to open another one. Sometimes the 2nd cmd can crash (sometimes it happened 5-6 times in a row for me), just open the launcher again.
 
 Ta-da, your inside the game, create a caracter and cruise around !
 
@@ -88,3 +84,24 @@ Q: I get a green message in a small box, what is it ?
 ![Green message](https://github.com/user-attachments/assets/dea15393-a094-463e-a6a2-f632bd472e63)
 
 A: You didn't installed the english patch, check again the first step.
+
+
+## (DEPRECATED) Old launcher installation
+
+You will have to build the launcher by yourself.
+
+Download the Launcher project and put it where you want (mine is E:\jeux\MONSTER HUNTER ONLINE\mho_launcher).
+
+
+Launch Visual Studio, select folder and follow theses steps to build it :
+
+- The project need a compiler to build correctly, it should compile in x86-Release :
+
+![Compiler image](https://github.com/user-attachments/assets/ff3513d6-7690-46f6-a1b7-b1c080e825f1)
+
+- Next, build the project with this icon :
+
+![Build image](https://github.com/user-attachments/assets/7c6db59e-b117-4012-8de0-60416bd38bb9)
+
+- Find the output files in the folder : LOCATION"\mho_launcher\out\build\x86-Release (mine is E:\jeux\MONSTER HUNTER ONLINE\mho_launcher\out\build\x86-Release)
+- Copy mho_launcher.exe + mho_launcher_lib.dll inside your game installation (mine is C:\Program Files (x86)\TencentGame\Monster Hunter Online\Bin\Client\Bin32)
